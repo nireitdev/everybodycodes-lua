@@ -6,13 +6,12 @@
 ---         - vertical y reversa
 ---         - juntando "join" la parte derecha con la izquierda => horizontal y reversa
 
-
 --
 --  Funciones
 --
 
 --- En este caso simplemente parto a la mitad la cadena y las uno en las puntas. 
---- No hago vector circular.
+--- No hago vector circular porque las runas son mucho mas cortas que las cadenas.
 function Circular_str(cadena,mascara ) 
     local mitad = math.floor(#cadena / 2)
 
