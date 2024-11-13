@@ -1,10 +1,10 @@
 --- Quest 3: Mining Maestro
---- Part 1
-
+--- Part2 same code than Part1 
 
 --
 --  Funciones
 --
+
 
 function Dibujar(mapa)
     print()
@@ -82,7 +82,7 @@ end
 
 -- Lectura archivo:
 local mapa = {}
-local filename = "everybody_codes_e2024_q03_p1.txt"
+local filename = "everybody_codes_e2024_q03_p2.txt"
 -- local filename = "delme.txt"
 
 for l in  io.lines(filename) do
