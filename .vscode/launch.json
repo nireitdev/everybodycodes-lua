@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Debug",
             "cwd": "${workspaceFolder}/2024",
-            "program": "${workspaceFolder}/2024/quest03_part1.lua"
+            "program": "${workspaceFolder}/2024/quest07_part2.lua"
         }
     ]
 }
